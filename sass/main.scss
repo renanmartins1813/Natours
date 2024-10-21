@@ -1,6 +1,8 @@
 $color-primary: #55C57A;
 $color-primary-light: #7ED56F;
 $color-primary-dark: #28B485;
+$color-grey-dark: #777;
+$color-white: #FFF;
 
 *,
 *::before,
@@ -19,7 +21,7 @@ body {
   font-weight: 400;
   /* font-size: 16px; */
   line-height: 1.7;
-  color: #777;
+  color: $color-grey-dark ;
   padding: 3rem;
   box-sizing: border-box;
 }
@@ -56,7 +58,7 @@ body {
 }
 
 .heading-primary {
-  color: #fff;
+  color: $color-white;
   text-transform: uppercase;
 
   backface-visibility: hidden;
@@ -106,8 +108,8 @@ body {
 }
 
 .bnt--white {
-  background-color: #FFF;
-  color: #777;
+  background-color: $color-white;
+  color: $color-grey-dark;
 }
 
 .bnt::after {
@@ -124,7 +126,7 @@ body {
 }
 
 .bnt--white::after {
-  background-color: #FFF;
+  background-color: $color-white;
 }
 
 .bnt:hover::after {
